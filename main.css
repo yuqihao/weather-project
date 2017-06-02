@@ -1,0 +1,187 @@
+
+header{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: #2097C9;
+	min-width: 960px;
+	border-bottom: 1px solid #0A6B88;
+
+}
+
+header div{
+	position: relative;
+	width: 960px;
+	height: 100px;
+	color: #FFF;
+	margin:0 auto;
+}	
+header h1{
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 100px;
+}
+/*头部结束*/
+
+#con input{
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #D0D0D0;
+	margin-top: 20px;
+}
+#con button{
+	background-color: #2097C9;
+	width: 50px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #D0D0D0;
+	color: #FFF;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+#con input:focus{
+	outline: none;
+}
+#con button:focus{
+	outline: none;
+}
+#cotent button:hover{
+	background-color: #24A8F0;
+}
+#con button:active{
+	color: #2097C9;
+	background-color:#fff;
+}
+#con .tip{
+	left: 350px;
+	position: absolute;
+	font-size: 10px;
+	color: #B5B5B5;
+}
+#con .result{
+	
+}
+
+/*表格样式*/
+#con{
+	position: relative;
+	overflow: auto;
+	margin: 0 auto;
+	width: 960px;
+	height: 1000px;
+	text-align: center;
+}
+#con table{
+	top: 30px;
+	position: relative;
+	margin: 0 auto;
+	border: 1px solid #D4D4D4;
+	border-collapse:collapse;
+}
+#con table th{
+	font-size: 16px;
+	position: relative;
+}
+
+#con table tr  .subtract{
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	display: block;
+	width:16px;
+	height:3px;
+	background: url(./img/jianhao.png) no-repeat;
+	background-size: 100%;
+	border: none;
+	cursor: pointer;
+}
+
+#con table th .order{
+	background: url(./img/triangle.png) no-repeat;
+	display: block;
+	width: 10px;
+	height: 10px;
+	background-size: 100%;
+	transform: rotate(180deg);
+	position: absolute;
+	top: 10px;
+	left: 90px;
+	cursor: pointer;
+}
+#con table th .reverse{
+	background: url(./img/triangle.png) no-repeat;
+	display: block;
+	width: 10px;
+	height: 10px;
+	background-size: 100%;
+	position: absolute;
+	top: 23px;
+	left:90px;
+	cursor: pointer;
+
+}
+#con table th .delete{
+	position: absolute;
+	left: 10px;
+	bottom: 18px;
+	display: block;
+	width:16px;
+	height:3px;
+	background: url(./img/jianhao.png) no-repeat;
+	background-size: 100%;
+	border: none;
+	cursor: pointer;
+	display: none;
+	
+}
+
+#con table tr.odd{
+	background-color: #2097C9;
+}
+#con table tr.hover{
+	background-color: #13AFBB;
+}
+
+#con table th{
+
+	width: 140px;
+	height: 40px;
+	border: 1px solid #D4D4D4;
+}
+#con table td{
+	
+	line-height: 30px;
+	font-size: 15px;
+	position: relative;
+	width: 140px;
+	height: 30px;
+	text-align: center;
+	border: 1px solid #D4D4D4;
+}
+#con table td img{
+	position:relative;
+	top: 5px;
+}
+/*表格样式结束*/
+
+
+/*全局样式*/
+a{
+	text-decoration: none;
+}
+body{
+	font: 14px Helvetica,Arial,sans-serif;
+}
+img{
+	border: 1px solid none;
+}
+li
+{
+	list-style: none;
+}
+*{
+	margin:0;
+	padding:0;
+}
+/*全局样式结束*/

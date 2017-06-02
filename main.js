@@ -16,8 +16,9 @@ $(document).ready(function() {
            $('button').click();
         }
     }
-     
-     
+    setInterval(function(){  var dat=Date();
+    $('.date').text(dat);},1000);
+  
 
  });
 

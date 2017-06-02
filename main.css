@@ -9,7 +9,7 @@ header{
 
 }
 
-header div{
+header .header{
 	position: relative;
 	width: 960px;
 	height: 100px;
@@ -20,6 +20,13 @@ header h1{
 	font-size: 30px;
 	font-weight: normal;
 	line-height: 100px;
+}
+
+header .date{
+	left: 800px;
+	top: 30px;
+	width: 400px;
+	position: absolute;
 }
 /*头部结束*/
 
